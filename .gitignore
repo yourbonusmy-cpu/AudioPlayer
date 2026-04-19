@@ -17,6 +17,8 @@ env/
 
 # SQLite DB (у тебя явно используется)
 *.sqlite3
+*.sqlite
+*.db
 
 
 # ==============================
@@ -68,3 +70,12 @@ htmlcov/
 node_modules/
 dist/
 build/ ini
+
+# SqlAlchemy
+migragions/
+alembic.ini
+
+# my files
+tmp.txt
+main_worked.py
+code_review.txt
